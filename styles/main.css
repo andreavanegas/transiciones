@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.containermenu{
+  background-color: pink;
+}
+
+nav ul{
+  position: relative;
+  top:0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  margin: 0px, auto;
+  width: 613px;
+  list-style: none;
+
+}
+nav ul li{
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+
+}
+
+nav ul li a{
+  padding: 17px 23px;
+  text-decoration: none;
+
+}
+
+.active{
+  height: 10px;
+  width: 80px;
+  background-color: white;
+  border: 2px, 2px;
+}
+/* pagina 1 */
+.p1{
+position: absolute;
+width: 80px;
+height: 80px;
+background-color: green;
+margin: auto;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+}
+.p1:hover{
+  width: 180px;
+  height: 180px;
+  background-color: pink;
+  transition-property: width, height, background-color;
+  transition-duration: 1s;
+  transition-delay: 0s, 1s, 2s;
+}
+
+/* ******pagina 2 */
+
+
+article{
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.p2{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-color: blue;
+}
+
+.p2:hover{
+  height: 180px;
+  width: 180px;
+  border:solid 4px purple;
+  background-color: pink;
+  transition-property: width, height, background-color, border;
+  transition-duration: 1s;
+  transition-delay: 0s, 1s, 2s, 3s;
+
+
+}
+
+
+/* ******pagina 3 */
+
+.J{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-color: blue;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  transition-property: background-color, width, height;
+  transition-duration: 1s;
+  transition-delay: 0s, 1s, 2s;
+}
+
+.J:hover{
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+}
+
+.J:hover div{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: green;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  transition-property: border-radius;
+  transition-duration: 1s;
+  transition-delay: 3s;
+}
+.J:hover div{
+  border-radius: 50px;
+  background: #FFFF66;
+}
+
+/* ******pagina 4 */
+
+
+.p4{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  margin: 0px,  0px,  0px, 0px;
+  transition-property: background-color, width, height;
+  transition-duration: 1s;
+  transition-delay: 0s, 1s, 2s;
+}
+
+.p4:hover{
+  height: 150px;
+  width: 150px;
+  background-color: pink;
+}
+
+.p4:hover div{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: green;
+  margin: 0px,  0px,  0px, 0px;
+  transition-property: border-radius;
+  transition-duration: 1s;
+  transition-delay: 3s;
+}
+.p4:hover div{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: green;
+  margin: 0px,  0px,  0px, 0px;
+  transition-property: width, height, border-radius;
+  transition-duration: 1s;
+  transition-delay: 3s;
+}
+
+.p4:hover div{
+  border-radius: 50px;
+  background: #FFFF66;
+}
+
+.p4:hover div{
+  position:  relative;
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  margin: 150px,  0px,  0px, 150px;
+  transition-property: width, height, border-radius, margin;
+  transition-duration: 1s;
+  transition-delay: 3s;
+}
+
+.p4:hover div{
+  border-radius: 50px;
+  background: #FFFF66;
+}
